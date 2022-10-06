@@ -34,12 +34,11 @@ public class BankTransactions implements BankOperations{
             case "Y", "y":
                 return;
             case "N", "n":
-                break;
+                System.exit(-1);
             default:
                 System.out.println("Invalid entry, goodbye!");
                 break;
         }
-
     }
 
     @Override
