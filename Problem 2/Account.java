@@ -1,8 +1,8 @@
 public class Account {
 
-    private String firstName;
-    private String lastName;
-    private String acctNumber;
+    public String firstName;
+    public String lastName;
+    public String acctNumber;
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -12,7 +12,8 @@ public class Account {
         this.lastName = lastName;
     }
 
-    public void setAcctNumber(String acctNumber) {
+    public String setAcctNumber(String acctNumber) {
         this.acctNumber = acctNumber;
+        return acctNumber;
     }
 }

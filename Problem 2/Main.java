@@ -9,6 +9,7 @@ public class Main {
 
             Scanner scan = new Scanner(System.in);
 
+            System.out.println("**************************");
             System.out.println("Welcome to Group 1 Bank");
             System.out.println("\nChoose an Operation to Perform:");
             System.out.println("\n[1] Create a bank account \n[2] Select a bank account");
@@ -23,9 +24,8 @@ public class Main {
                     continue;
                 default:
                     System.out.println("Invalid entry, please try again");
-                    continue;
-            }
+                    break;
+            }break;
         }
-
     }
 }
