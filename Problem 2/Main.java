@@ -21,9 +21,9 @@ public class Main {
                     continue;
                 case 2:
                     bankClient.selectBankAccount();
-                    break;
+                   continue;
                 default:
-                    System.out.println("Invalid entry, please try again");
+                    System.out.println("Invalid entry, please try again.");
                     break;
             }break;
         }
