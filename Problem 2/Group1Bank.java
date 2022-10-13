@@ -44,6 +44,7 @@ public class Group1Bank implements BankOperation {
             if (bankAccount != null) {
                 bankAccount.printAccountInfoComplete();
                 keepLooping = false;
+                chooseOperation(bankAccount);
             } else {
                 System.out.print("Bank Account not found!");
             }
@@ -94,7 +95,7 @@ public class Group1Bank implements BankOperation {
         return bankAccountType;
     }
 
-    private void chooseOperation() {
+    public void chooseOperation(BankAccount bankAccount) {
         System.out.println("\r\n\nChoose an Operation to Perform");
         System.out.println("\n[1] Deposit \n[2] Withdraw \n[3] Display Account Info \n[-1] Exit");
         System.out.print("Enter Transaction type: ");
@@ -108,8 +109,9 @@ public class Group1Bank implements BankOperation {
                 break;
             case "2":
                 System.out.print("\r\nEnter Amount to Withdraw: ");
-                double amountTran = input.nextInt();
-                withdraw(amountTran);
+                double amountWit = input.nextInt();
+                withdraw(amountWit, bankAccount);
+                bankAccount.printAccountInfo();
                 break;
             case "3":
                 System.out.println("Balance: ");
@@ -126,11 +128,38 @@ public class Group1Bank implements BankOperation {
         }
     }
 
+
     public void deposit(double amount) {
+
 
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(double amountWit, BankAccount bankAccount)
+    {
+        double balance = bankAccount.getBalance();
+
+        if (bankAccount.getAcctType().equals("Regular Account")) {
+            if(amountWit <= balance) {
+                if (balance-amountWit >= bankAccount.getMinimumBalance()) {
+                    bankAccount.setBalance(balance - amountWit);
+                } else {
+                    bankAccount.setBalance(balance - amountWit - bankAccount.getPenalty());
+                }
+            }
+        } else if (bankAccount.getAcctType().equals("Interest Account")) {
+            if(amountWit <= balance) {
+                    bankAccount.setBalance(balance - amountWit);
+            }
+        } else { //Checking Account
+            if(amountWit <= balance) {
+                if (balance-amountWit >= bankAccount.getMinimumBalance()) {
+                    bankAccount.setBalance(balance - amountWit - bankAccount.getTransactionCharge());
+                } else {
+                    bankAccount.setBalance(balance - amountWit - bankAccount.getPenalty() - bankAccount.getTransactionCharge());
+                }
+            }
+
+        }
 
     }
 
