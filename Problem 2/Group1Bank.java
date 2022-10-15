@@ -20,6 +20,9 @@ public class Group1Bank implements BankOperation {
 
         bankAccount.setAcctType(chooseBankAccountType());
 
+        BankUtils bankUtils = new BankUtils();
+        bankUtils.generateRandomAcc();
+
         bankAccount.setAcctNumber(BankUtils.generateRandomAcc());
         System.out.println("===============================");
         boolean result = BankUtils.createBankAccount(bankAccount);
