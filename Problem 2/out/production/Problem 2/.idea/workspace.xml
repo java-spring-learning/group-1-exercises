@@ -2,33 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6bbd2bf-50ff-4bfb-b32c-b42bb595fdd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankAccountType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BankDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankOperation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BankTransaction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BankTransactionType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BankUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Group1Bank.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/group1bank.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Problem 2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Problem 2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Problem 2/group1bank.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Problem1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Problem1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem1/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/group-1-exercises.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Problem1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Problem 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Problem 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Problem 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Group1Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankTransactions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CheckingAccount.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/InterestAccount.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegularAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegularAccount.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/Problem 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/Problem 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Problem 2/Problem 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Problem 2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Problem 2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Problem 2/.idea/modules.xml" afterDir="false" />

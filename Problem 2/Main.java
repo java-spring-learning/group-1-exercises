@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
         while (true) {
 
             Scanner scan = new Scanner(System.in);
@@ -51,6 +50,7 @@ public class Main {
             if (bankAccount!=null) {
                 System.out.println("Your account has been selected!");
                 bankAccount.printAccountInfo();
+                //TODO: Ask for Operation to use (Withdraw/Deposit/Display)
             } else {
                 System.out.println("ERROR: Failed to select account");
             }
